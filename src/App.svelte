@@ -1,4 +1,4 @@
-<script>
+<script export lang="ts">
 	import { beforeUpdate, afterUpdate, onMount } from 'svelte';
 	import CustomMenu from './ContextMenu/CustomMenu.svelte'; 
 	import Cancel from './Icons/Cancel.svelte';
