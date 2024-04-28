@@ -539,6 +539,7 @@
 		background-color: #595d61;
 		border-radius: 1em 1em 1em 0;
 		transform: translateX(3vw);
+		max-width: 70%;
 	}
 
 	.author span {
@@ -548,6 +549,7 @@
 		border-radius: 1em 1em 0 1em;
 		word-break: break-all;
 		transform: translateX(-3vw);
+		max-width: 70%;
 	}
 
 	.author span:hover {
