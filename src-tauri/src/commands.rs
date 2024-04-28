@@ -42,16 +42,16 @@ pub fn get_active_status() -> bool {
 // The `state` param is true to include in the whitelist, set to false to remove
 // Returns whether or not action was successful or not 
 #[tauri::command]
-pub fn set_whitelist_window(window_name: String, state: bool) -> bool {
-    true
+pub fn set_whitelist_window(window_name: String, state: bool) -> Result<String, String> {
+    Ok("Success!".into())
 }
 
 // Whitelist a process name or remove from whitelist
 // The `state` param is true to include in the whitelist, set to false to remove
 // Returns whether or not action was successful or not 
 #[tauri::command]
-pub fn set_whitelist_process(process_name: String, state: bool) -> bool {
-    true
+pub fn set_whitelist_process(process_name: String, state: bool) -> Result<String, String> {
+    Ok("Success!".into())
 }
 
 // Turn the app on or off
